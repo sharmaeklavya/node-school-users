@@ -4,7 +4,7 @@ const express = require("express");
 const mongodb = require("mongodb");
 
 //Setting up server port number
-const port = process.env.port || 3500;
+const port = process.env.PORT || 3500;
 
 // Mongo client
 const mongoClient = mongodb.MongoClient;
